@@ -1,0 +1,41 @@
+import { EmailService } from 'src/twilio/email/email.service';
+import { CreateSubuserDto } from './dto/create-subuser.dto';
+import { EmailIntegrationDto } from './dto/email-integration.dto';
+import { LoginUserDto } from './dto/login-user.dto';
+import { SignupUserDto } from './dto/signup-user.dto';
+import { UpdatePasswordDto } from './dto/update-password.dto';
+import { UpdateSubuserDto } from './dto/update-subuser.dto';
+export declare class AuthService {
+    login(loginUserDto: LoginUserDto): Promise<any>;
+    signup(signupUserDto: SignupUserDto): Promise<any>;
+    updateFacebookFeature(userData: any, enabled: boolean): Promise<import("../entity/user.entity").default>;
+    updateHDFeature(userData: any, enabled: boolean): Promise<import("../entity/user.entity").default>;
+    updateEmailFeature(userData: any, enabled: boolean): Promise<import("../entity/user.entity").default>;
+    updateLivechatFeature(userData: any, enabled: boolean): Promise<import("../entity/user.entity").default>;
+    updateCallFeature(userData: any, enabled: boolean): Promise<import("../entity/user.entity").default>;
+    getProfile(userData: any): Promise<import("../entity/user.entity").default>;
+    integrateHD(userData: any, hdApiKey: string): Promise<void>;
+    integrateEmail(userData: any, emailIntegrationDto: EmailIntegrationDto, emailService: EmailService): Promise<import("../entity/user.entity").default>;
+    updatePassword(userData: any, updatePasswordDto: UpdatePasswordDto): any;
+    updateAvatar(userData: any, avatar: string): Promise<import("../entity/user.entity").default>;
+    buyPhoneNumber(userData: any, areaCode: string): Promise<any>;
+    portPhoneNumber(userData: any, phoneNumber: string): Promise<any>;
+    getLiveChatScript(userData: any): Promise<any>;
+    getAnalytics(userData: any): Promise<any>;
+    createSubadmin(userData: any, createSubuserDto: CreateSubuserDto): Promise<import("../entity/user.entity").default>;
+    updateSLAEmail(userData: any, slaEmail: number): Promise<any>;
+    updateSLAMessenger(userData: any, slaMessenger: number): Promise<any>;
+    updateSLACall(userData: any, slaCall: number): Promise<any>;
+    updateSLALivechat(userData: any, slaLivechat: number): Promise<any>;
+    getIncomingMessagesForRange(userData: any, startDate: string, endDate: string, duration: string, agentId: number): Promise<{
+        email: {};
+        sms: {};
+        calls: {};
+        messenger: {};
+        livechat: {};
+    }>;
+    getSubadmins(userData: any): Promise<import("../entity/user.entity").default[]>;
+    getSubadminById(userData: any, id: number): Promise<import("../entity/user.entity").default>;
+    updateSubadmin(userData: any, updateSubuserDto: UpdateSubuserDto): Promise<import("../entity/user.entity").default>;
+    deleteSubadminById(userData: any, id: number): Promise<any>;
+}

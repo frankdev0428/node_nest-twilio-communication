@@ -1,186 +1,71 @@
-Contribution: 2018-05-01 20:00
-
-Contribution: 2018-07-16 20:00
-
-Contribution: 2018-07-17 20:00
-
-Contribution: 2018-07-23 20:00
-
-Contribution: 2018-08-03 20:00
-
-Contribution: 2018-08-26 20:00
-
-Contribution: 2018-10-01 20:00
-
-Contribution: 2018-10-10 20:00
-
-Contribution: 2018-10-22 20:00
-
-Contribution: 2018-10-25 20:00
-
-Contribution: 2018-12-07 20:00
-
-Contribution: 2018-12-22 20:00
-
-Contribution: 2019-01-08 20:00
-
-Contribution: 2019-03-04 20:00
-
-Contribution: 2019-03-14 20:00
-
-Contribution: 2019-03-27 20:00
-
-Contribution: 2019-04-12 20:00
-
-Contribution: 2019-04-21 20:00
-
-Contribution: 2019-04-22 20:00
-
-Contribution: 2019-05-01 20:00
-
-Contribution: 2019-06-10 20:00
-
-Contribution: 2019-08-19 20:00
-
-Contribution: 2019-09-16 20:00
-
-Contribution: 2019-09-29 20:00
-
-Contribution: 2019-10-12 20:00
-
-Contribution: 2019-10-30 20:00
-
-Contribution: 2019-11-16 20:00
-
-Contribution: 2019-12-02 20:00
-
-Contribution: 2019-12-24 20:00
-
-Contribution: 2020-01-08 20:00
-
-Contribution: 2020-02-23 20:00
-
-Contribution: 2020-05-17 20:00
-
-Contribution: 2020-06-30 20:00
-
-Contribution: 2020-08-01 20:00
-
-Contribution: 2020-08-31 20:00
-
-Contribution: 2020-09-12 20:00
-
-Contribution: 2020-10-04 20:00
-
-Contribution: 2020-10-16 20:00
-
-Contribution: 2020-11-29 20:00
-
-Contribution: 2020-12-20 20:00
-
-Contribution: 2021-02-10 20:00
-
-Contribution: 2021-02-28 20:00
-
-Contribution: 2021-03-26 20:00
-
-Contribution: 2021-06-27 20:00
-
-Contribution: 2021-07-11 20:00
-
-Contribution: 2021-07-25 20:00
-
-Contribution: 2021-08-01 20:00
-
-Contribution: 2021-09-27 20:00
-
-Contribution: 2021-10-18 20:00
-
-Contribution: 2021-10-27 20:00
-
-Contribution: 2021-11-28 20:00
-
-Contribution: 2021-12-05 20:00
-
-Contribution: 2021-12-23 20:00
-
-Contribution: 2022-01-26 20:00
-
-Contribution: 2022-01-28 20:00
-
-Contribution: 2022-01-30 20:00
-
-Contribution: 2022-02-03 20:00
-
-Contribution: 2022-02-18 20:00
-
-Contribution: 2022-02-28 20:00
-
-Contribution: 2022-03-02 20:00
-
-Contribution: 2022-03-26 20:00
-
-Contribution: 2022-04-04 20:00
-
-Contribution: 2022-04-23 20:00
-
-Contribution: 2022-05-09 20:00
-
-Contribution: 2022-06-12 20:00
-
-Contribution: 2022-06-25 20:00
-
-Contribution: 2022-08-05 20:00
-
-Contribution: 2022-08-31 20:00
-
-Contribution: 2022-09-05 20:00
-
-Contribution: 2022-09-09 20:00
-
-Contribution: 2022-09-19 20:00
-
-Contribution: 2022-09-30 20:00
-
-Contribution: 2022-10-03 20:00
-
-Contribution: 2022-11-06 20:00
-
-Contribution: 2022-11-23 20:00
-
-Contribution: 2022-11-25 20:00
-
-Contribution: 2022-12-07 20:00
-
-Contribution: 2023-02-27 20:00
-
-Contribution: 2023-03-10 20:00
-
-Contribution: 2023-03-18 20:00
-
-Contribution: 2023-03-19 20:00
-
-Contribution: 2023-03-22 20:00
-
-Contribution: 2023-04-02 20:00
-
-Contribution: 2023-04-11 20:00
-
-Contribution: 2023-04-27 20:00
-
-Contribution: 2023-05-13 20:00
-
-Contribution: 2023-06-01 20:00
-
-Contribution: 2023-06-08 20:00
-
-Contribution: 2023-06-29 20:00
-
-Contribution: 2023-07-05 20:00
-
-Contribution: 2023-07-15 20:00
-
-Contribution: 2023-07-18 20:00
-
-Contribution: 2023-09-25 20:00
-
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
+
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+
+## Description
+
+Communication Backend Project
+
+## Node version
+14.19.1
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Manage DB
+```bash
+# make migration
+$ npm run typeorm:generate src/migrations/migrationName
+
+# migrate to db
+$ npm run typeorm:run
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```

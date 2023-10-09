@@ -1,0 +1,32 @@
+import { BaseEntity } from "typeorm";
+import Customer from "./customer.entity";
+export default class HDOrder extends BaseEntity {
+    id: number;
+    oid: string;
+    bid: string;
+    sid: string;
+    date: string;
+    tasks: string;
+    subtotal: string;
+    taxamount: string;
+    balancedue: string;
+    total: string;
+    invoiceurl: string;
+    taxes: string;
+    payments: string;
+    url: string;
+    status: string;
+    purchased: string;
+    address: string;
+    city: string;
+    state: string;
+    zip: string;
+    beds: string;
+    baths: string;
+    sqft: string;
+    created: string;
+    createdDate: Date;
+    updatedDate: Date;
+    customerId: number;
+    customer: Customer;
+}
